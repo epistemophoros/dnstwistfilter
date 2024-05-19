@@ -15,14 +15,14 @@ Clone this repository to your local machine using:
 `git clone https://github.com/epistemophoros/dnstwistfilter.git && cd dnstwistfilter`
 
 Make the script executable:
-chmod +x sort-phishing.sh
+`chmod +x sort-phishing.sh`
 
 ## Usage
 
 To use the script, you need to provide the base name of the website as a command-line argument. The script expects a file named `phishing-<website-name>.txt` in the same directory.
 
 For example, if you have a file named `phishing-discord.txt`, you would run:
-./sort-phishing.sh discord
+`./sort-phishing.sh discord`
 
 This command will process the file and generate two output files:
 - `<website-name>-active.txt` - contains domains considered active.
