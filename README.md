@@ -12,7 +12,7 @@ Before running this script, ensure you have:
 ## Installation
 
 Clone this repository to your local machine using:
-git clone https://github.com/epistemophoros/dnstwistfilter.git && cd dnstwistfilter
+`git clone https://github.com/epistemophoros/dnstwistfilter.git && cd dnstwistfilter`
 
 Make the script executable:
 chmod +x sort-phishing.sh
